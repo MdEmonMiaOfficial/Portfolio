@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9732bc4575.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+     <div class="container">
+        <nav>
+            <img src="images/logo2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Bug Hunter | Pentester | Red Teamer<br> | Cybersecurity Researcher
+            </p>
+            <h1>Hi, I'm <span>Emon Mia</span><br>Bangladesh</h1>
+        </div>
+     </div>
+
+</div>
+<!-- ------------About--------------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/emon1.png">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1> 
+              <p>I am a passionate and dedicated Penetration Tester, Bug Hunter, and Cybersecurity Researcher with a strong commitment to uncovering vulnerabilities and strengthening digital defenses. With hands-on experience in ethical hacking, vulnerability assessment, and exploit development, I thrive on identifying and reporting security flaws to help organizations secure their systems.<br><br>
+
+                My journey in cybersecurity is driven by curiosity, continuous learning, and a mission to contribute to a safer digital world. I actively participate in bug bounty programs and security research projects, and I enjoy exploring new attack vectors in both web and network environments.<br><br>
+                
+                Whether it's testing applications, hunting for critical bugs, or researching the latest threats, I bring a blend of technical expertise, problem-solving skills, and ethical responsibility to everything I do.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab(skills)">Skills</p>
+                <p class="tab-links" onclick="opentab(experience)">Experience</p>
+                <p class="tab-links" onclick="opentab(education)">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Panatester</span><br>Web/Apps Panatester</li>
+                    <li><span>Bug Hunter</span><br> </li>
+                    <li><span>Active Directory</span><br> </li>
+                    <li><span>Kids Security</span><br></li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="experience">
+                <ul>
+                    <li><span>2025 - Current</span><br> Tryhackme </li>
+                    <li><span>2024 - 2024</span><br>Hackerone </li>
+                    <li><span>2023 - 2024</span><br>Hack The Box </li>
+                    <li><span>2020 - 2023</span><br>Hactify </li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="education">
+                <ul>
+                    <li><span>2025</span><br> Bsc in CSE at Green University of Bangladesh </li>
+                    <li><span>2018 - 2020</span><br>GSRC</li>
+                    <li><span>2016-2018</span><br>IPGH </li>
+                </ul>
+            </div>
+
+              </div>  
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ---------------------services----------------- -->
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web Pen Testing</h2>
+                <p>We test your web applications for vulnerabilities, ensuring that your online platforms remain secure from attacks.</p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bug"></i>
+                <h2>Bug Bounty Program</h2>
+                <p>We participate in bug bounty programs to identify hidden flaws in your applications, improving security through ethical hacking.</p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-virus"></i>
+                <h2>Vuln Assessment & Exploitation</h2>
+                <p>We assess and exploit security gaps in your systems to ensure no critical vulnerabilities are left open to attack.</p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-folder-tree"></i>
+                <h2>Active Directory Security Audits</h2>
+                <p> We audit your Active Directory environment to detect misconfigurations and security flaws, protecting your internal network.</p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-otter"></i>
+                <h2>Phishing & Social Engineering Testing</h2>
+                <p>We simulate phishing and social engineering attacks to identify weaknesses in your human security defenses.
+                </p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-people-group"></i>
+                <h2>Cybersecurity Consulting</h2>
+                <p>We provide expert cybersecurity consulting to help you create a robust defense system and mitigate emerging threats.
+                </p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-child-reaching"></i>
+                <h2>Kids Security</h2>
+                <p></p>
+                <a href="#">Learn more </a>
+            </div>      
+        </div>     
+    </div>
+</div>
+<!-- ----------------portfolio----------- -->
+ <div class="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Cybersecurity Researcher </h3>
+                <p>My cybersecurity research focuses on emerging threats, attack vectors, and defensive mechanisms. I explore vulnerabilities in web technologies, study malware behavior, and experiment with ethical hacking tools. I regularly document findings and contribute to the infosec community, aiming to make the digital world safer through shared knowledge.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Penetration Testing</h3>
+                <p>I have conducted various penetration testing projects on web applications and network infrastructures. Using tools like Burp Suite, Nmap, and Metasploit, I simulated real-world cyber-attacks to identify vulnerabilities. My goal has always been to help organizations proactively secure their systems before malicious attackers can exploit weaknesses.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3> Bug Hunting</h3>
+                <p>As an active bug bounty hunter, I have reported numerous vulnerabilities in popular platforms. My focus areas include XSS, SQLi, IDOR, and authentication flaws. I responsibly disclose bugs through platforms like HackerOne and Bugcrowd, contributing to global cybersecurity while enhancing my skills through practical, real-world experience.                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>  
+    </div>
+    <a href="#" class = "btn">See more</a>
+ </div>
+</div>
+
+<!-- -------------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact.emon@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+8801736359740</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/md-emon-mia-b10068209/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/emon_cv.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form submit-to-google-sheet>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © EMON. Made with <i class="fa-solid fa-heart"></i> by Security </p>
+    </div>
+</div>
+
+
+<script>
+ 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbwXqsLu17BSJRtsZKOBlDiZwwKA-h7_j0XlAG5PxRzHzmdAateC-M7uWno8DeMJT9uWqw/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },500)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
